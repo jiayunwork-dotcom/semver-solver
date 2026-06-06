@@ -1,0 +1,17 @@
+[package]
+name = "semver-solver-solver"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+semver-solver-core = { workspace = true }
+semver-solver-parsers = { workspace = true }
+semver-solver-registry = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+colored = { workspace = true }
+petgraph = { workspace = true }
+itertools = { workspace = true }
+anyhow = { workspace = true }
+thiserror = { workspace = true }
